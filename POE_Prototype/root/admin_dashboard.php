@@ -29,19 +29,19 @@ session_start();
             <div class="task-container">
 
                 <div class="task">
-                    <a href="Create_Claims.html">
+                    <a href="ReviewPendingUsers.php">
                         <img src="../images/Pastimes_favicon.png" alt="ReviewUsers">
                     </a>
                 </div>
 
                 <div class="task">
-                    <a href="Claim_View_Lecturer.html">
+                    <a href="ManageUsers.php">
                         <img src="../images/Pastimes_favicon.png" alt="ManageUsers">
                     </a>
                 </div>
 
                 <div class="task">
-                    <a href="Supporting_Documents_Upload.html">
+                    <a href="">
                         <img src="../images/Pastimes_favicon.png" alt="">
                     </a>
                 </div>

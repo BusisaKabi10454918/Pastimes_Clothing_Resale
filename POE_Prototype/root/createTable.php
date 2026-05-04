@@ -3,7 +3,7 @@ include "DBConn.php";
 
 //First check if the table exists, if not create it, if it does, drop it and populate with the data from the file
 $sql1 = "DROP TABLE IF EXISTS tbl_user";
-$conn->query($sql1  );
+$conn->query($sql1);
 
 
 $sql2 = "CREATE TABLE IF NOT EXISTS tbl_user (
@@ -17,7 +17,7 @@ $sql2 = "CREATE TABLE IF NOT EXISTS tbl_user (
 $conn->query($sql2);
 
 //First setup the file with out details
-$inputFile = file("userdata.txt");
+$inputFile = file("../dataFiles/userData.txt");
 
 //Seperate each line into an array. Currently formatted "Firstname; Lastname; Username; Email; Password"
 $inputFile = array_filter($inputFile);
