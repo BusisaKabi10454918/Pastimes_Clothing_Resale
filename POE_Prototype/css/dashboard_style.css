@@ -1,0 +1,17 @@
+@import url(/css/main_navbar.css);
+@import url(/css/font-imports.css);
+
+body{
+    background-image: url('../images/Pastimes_background.png');
+    background-size: cover;
+    font-family: 'Lora', serif;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: #99470b;
+    margin-top: 20px;
+}
+
+
