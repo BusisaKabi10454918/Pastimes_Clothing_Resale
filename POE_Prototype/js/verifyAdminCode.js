@@ -10,7 +10,7 @@ function verifyAdminCode() {
         return true; // Allow form submission
     } else {
         alert('Warning: Incorrect code. Access denied.');
-        window.location.href = 'login.html'; // Redirect to standard login page
+        window.location.href = 'login.php'; // Redirect to standard login page
         return false; // Prevent form submission
     }
 

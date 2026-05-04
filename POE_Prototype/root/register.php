@@ -1,7 +1,6 @@
 <?php
 include 'DBConn.php';
 
-
 function checkNumbersAndCharacters(string $string): bool {
     //If there is a number or special character in the string, return false
     if (!preg_match("/^[a-zA-Z\s]+$/", $string)) {
@@ -106,7 +105,7 @@ if(isset($_POST['submit'])){
                     alert('Admin code verified. Registering as admin.');
                 </script>";
                 $password = password_hash($password, PASSWORD_DEFAULT);
-                $entry = "INSERT INTO tbl_user (fname, lname, email, username, password, userStatus) VALUES (?, ?, ?, ?, ?, 'approved')";
+                $entry = "INSERT INTO tbl_user (fname, lname, email, username, password) VALUES (?, ?, ?, ?, ?)";
 
                 $query = $conn->prepare($entry);
                 $query->bind_param("sssss", $first_name, $last_name, $email, $username, $password);
@@ -136,7 +135,6 @@ if(isset($_POST['submit'])){
                 echo "<script>
                     alert('Invalid admin code.');
                 </script>";
-                exit;
             }
         }
     }
