@@ -1,0 +1,114 @@
+/*These statements serve to reduce complexity by importing common style elements */
+@import url("../css/font-imports.css");
+@import url("../css/main_navbar.css");
+
+body {
+    background-image: url('../images/Pastimes_background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Rasa', serif;
+    color: #99470b;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+input {
+    color: #e6ce98;
+    background-color: #99470b;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #99470b;
+    border-radius: 12px;
+    width: 200px;
+}
+
+input::placeholder {
+    color: #e6ce98;
+    opacity: 1;
+}
+
+button {
+    background-color: #99470b;
+    color: #e6ce98;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+}
+
+.popup {
+    position: relative;
+    z-index: 3;
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0; left: 0;  width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.popup-code {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0; left: 0;  width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.popup-content {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #e6ce98;
+    color: #99470b;
+    margin: 15% auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+.close {
+    position: relative;
+    z-index: 3;
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navigation-menu {
+    display: none;
+    background: #E6CE98;
+    flex-direction: row;
+    justify-content: space-around;
+    position:   relative;
+    z-index: 3;
+}

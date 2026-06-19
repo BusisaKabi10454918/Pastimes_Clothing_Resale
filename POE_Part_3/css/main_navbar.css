@@ -1,0 +1,40 @@
+@import url("../css/font-imports.css");
+
+.navbar {
+  position: relative;
+  z-index: 2;
+  background: #ffebbd;
+  width: 100vw;
+  color: #99470b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #99470b;
+  text-decoration: none;
+  margin: 0px 10px;
+  font-size: 50px;
+}
+
+.navbar img {
+  height: 30px;
+  object-fit: contain;
+}
+
+.navbar-left{
+  display: flex;
+  align-items: left;
+}
+
+.navbar-center{
+  display: flex;
+  align-items: center;
+  font-family: 'Qwitcher Grypen', cursive;
+}
+
+.navbar-right{
+  display: flex;
+  align-items: right;
+}

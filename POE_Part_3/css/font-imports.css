@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rasa:ital,wght@0,400..700;1,400..700&display=swap');
+
+.qwitcher-grypen-regular {
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.qwitcher-grypen-bold {
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.Rasa-regular {
+  font-family: "Rasa", serif;
+  font-weight: 400;
+  font-style: normal;
+}

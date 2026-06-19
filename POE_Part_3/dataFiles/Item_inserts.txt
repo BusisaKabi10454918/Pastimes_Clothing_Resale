@@ -1,0 +1,5 @@
+Denim Jacket, Blue slim fit jacket, 400, 800, Outerwear
+Sneakers, White running shoes, 600, 1200, Footwear
+T-Shirt, Cotton graphic tee, 150, 300, Tops
+Leather Belt, Brown adjustable belt, 200, 500, Accessories
+Summer Dress, Floral print dress, 350, 700, Dresses
